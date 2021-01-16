@@ -1,0 +1,66 @@
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav > ul, ol {
+    list-style: none;
+}
+
+nav {
+    /*border: 1px solid red;*/
+    display: inline-block;
+}
+
+nav > ul {
+    /*border: 1px solid red;*/
+    float: left;
+    background: #ed1c28;
+}
+
+nav > ul > li {
+    /*border: 1px solid red;*/
+    float: left;
+    padding: 4px 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo {
+    /*border: 1px solid red;*/
+    float: left;
+}
+
+nav > div > img {
+    height: 36px;
+}
+
